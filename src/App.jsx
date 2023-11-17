@@ -23,7 +23,10 @@ function App() {
       <div id="search">
         <input type="text" onChange={handleChanges} />
       </div>
-
+      <div>
+        write the propositions to get results =Desert,hoouse in
+        desert,montaine,Persons in montain,Pesrson in desert
+      </div>
       {search
         ? tab
             .filter((elem) =>
